@@ -12,3 +12,6 @@ def get_acoes():
     return template(obter_lista_acoes().to_html()
 
 )
+
+if __name__ == "__main__":
+    app.run()

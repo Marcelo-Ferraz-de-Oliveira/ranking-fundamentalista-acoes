@@ -12,16 +12,9 @@ Fazer o scraping do Fundamentus para obter e analisar as informações fundament
 ##1.1 Imports
 """
 
-#!pip install cloudscraper
-#!pip install pandas_profiling
-#!pip install lxml
-from json.tool import main
-from multiprocessing.spawn import _main
-from socket import if_indextoname
-from threading import main_thread
+
 import cloudscraper
 import pandas as pd
-import pandas_profiling
 
 """##1.2 Endereços
 Endereço do fundamentus para pegar os principais indicadores de todas as empresas na bolsa.

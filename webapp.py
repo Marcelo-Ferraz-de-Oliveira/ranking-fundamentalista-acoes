@@ -9,6 +9,4 @@ def template (content):
 @app.route('/acoes')
 def get_acoes():
 
-    return template(obter_lista_acoes().to_html()
-
-)
+    return template(obter_lista_acoes().to_html())

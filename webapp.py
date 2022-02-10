@@ -9,4 +9,13 @@ def template (content):
 @app.route('/acoes')
 def get_acoes():
 
+<<<<<<< HEAD
     return template(obter_lista_acoes().to_html())
+=======
+    return template(obter_lista_acoes().to_html()
+
+)
+
+if __name__ == "__main__":
+    app.run()
+>>>>>>> 4e49cd8d2e852c7e5079a3a1b3709bf8fd32ce23
